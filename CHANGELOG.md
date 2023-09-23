@@ -1,3 +1,27 @@
+# [2.191.0](https://github.com/ExpanseCodes/revanced-patches/compare/v2.190.0...v2.191.0) (2023-09-23)
+
+
+### Bug Fixes
+
+* **Infinity for Reddit - Spoof client:** Constrain patch to last working versions ([#2944](https://github.com/ExpanseCodes/revanced-patches/issues/2944)) ([ee975de](https://github.com/ExpanseCodes/revanced-patches/commit/ee975dea846c77af0efe608e647075f4055af320))
+* **Twitch - Audio ads:** Support missing version `16.1.0` ([#2928](https://github.com/ExpanseCodes/revanced-patches/issues/2928)) ([688d8fa](https://github.com/ExpanseCodes/revanced-patches/commit/688d8fa7e86862e03d8336af5f6cb207c4b72593))
+* Use consistent toggle description ([#2983](https://github.com/ExpanseCodes/revanced-patches/issues/2983)) ([ceaa512](https://github.com/ExpanseCodes/revanced-patches/commit/ceaa512f317fdd95dca37e425b389494a9b2e226))
+* **YouTube - Custom filter:** Use new lines between components instead of commas ([#2952](https://github.com/ExpanseCodes/revanced-patches/issues/2952)) ([ecb2e32](https://github.com/ExpanseCodes/revanced-patches/commit/ecb2e32b1e296590d150bdd3f8bea2665b19a84d))
+* **YouTube - Hide layout components:** Always hide redundant 'player audio track' button ([#2951](https://github.com/ExpanseCodes/revanced-patches/issues/2951)) ([ca632bd](https://github.com/ExpanseCodes/revanced-patches/commit/ca632bd2cc74f0ce5ccb948e902445de3ab893cf))
+* **YouTube:** Restore functionality of `Old video quality menu` and `Custom speeds` on tablets ([#2999](https://github.com/ExpanseCodes/revanced-patches/issues/2999)) ([238bed1](https://github.com/ExpanseCodes/revanced-patches/commit/238bed12519ec61a53b1ee72da467830ef252154))
+
+
+### Features
+
+* publish patches to maven central ([0e05372](https://github.com/ExpanseCodes/revanced-patches/commit/0e0537292c67159200ebbfbc60ae65bd894e4c19))
+* **TU Dortmund:** Add `Show on lockscreen` patch ([#2947](https://github.com/ExpanseCodes/revanced-patches/issues/2947)) ([9a18326](https://github.com/ExpanseCodes/revanced-patches/commit/9a18326aeb68d7518594d0eab326ca845b9bdbdd))
+* **Tumblr:** Add `Disable blog notification reminder` patch ([29f19b9](https://github.com/ExpanseCodes/revanced-patches/commit/29f19b9378c7e167137f38fa4517ae19382ca4f6))
+* **Tumblr:** Add `Disable dashboard ads` patch ([#2979](https://github.com/ExpanseCodes/revanced-patches/issues/2979)) ([07c267a](https://github.com/ExpanseCodes/revanced-patches/commit/07c267ad20afa1415d2dba31f0830d2dd5a34654))
+* **Tumblr:** Add `Disable gift message popup` patch ([a4d6b4e](https://github.com/ExpanseCodes/revanced-patches/commit/a4d6b4e5ce6065d932f3895b4996e7dc1e5f7c67))
+* **Tumblr:** Add `Disable Tumblr Live` patch ([#2987](https://github.com/ExpanseCodes/revanced-patches/issues/2987)) ([bf1f9dc](https://github.com/ExpanseCodes/revanced-patches/commit/bf1f9dc799705679d17973e689165ab1bff327cd))
+* **Twitch - Block embedded ads:** Switch from `ttv.lol` to `luminous.dev` ([0fe115e](https://github.com/ExpanseCodes/revanced-patches/commit/0fe115e8f98ccdc86d318090fc92fe77cece1dd8))
+* **YouTube - Spoof app version:** add version 18.20.39 ([#3001](https://github.com/ExpanseCodes/revanced-patches/issues/3001)) ([f14c5e7](https://github.com/ExpanseCodes/revanced-patches/commit/f14c5e79792f62fb060dd0eebbd3dd7157a08a98))
+
 # [2.191.0-dev.6](https://github.com/ReVanced/revanced-patches/compare/v2.191.0-dev.5...v2.191.0-dev.6) (2023-09-22)
 
 
