@@ -45,7 +45,7 @@ publishing {
                 uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")
 
             credentials {
-                 username = (System.getenv("OSSRH_USERNAME") ?: "").toString()
+                username = (System.getenv("OSSRH_USERNAME") ?: "").toString()
                 password = (System.getenv("OSSRH_PASSWORD") ?: "").toString()
             }
         }
@@ -137,9 +137,9 @@ tasks {
     // Dummy task to fix the Gradle semantic-release plugin.
     // Remove this if you forked it to support building only.
     // Tracking issue: https://github.com/KengoTODA/gradle-semantic-release-plugin/issues/435
-    register<DefaultTask>("publish") {
-        group = "publish"
-        description = "Dummy task"
-        dependsOn(named("generateBundle"), named("generateMeta"))
-    }
+    //register<DefaultTask>("publish") {
+    //    group = "publish"
+    //    description = "Dummy task"
+    //    dependsOn(named("generateBundle"), named("generateMeta"))
+    //}
 }
